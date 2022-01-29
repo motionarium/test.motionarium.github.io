@@ -4,6 +4,7 @@ new TypeIt("#type", {
     loop: true,
     nextStringDelay: 750,
     deleteSpeed: 150,
+    cursor: false,
     })
     .type('Я <span class="name">motionarium</span>!')
     .delete(".name")
