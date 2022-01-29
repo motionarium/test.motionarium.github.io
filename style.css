@@ -4,7 +4,7 @@ html {
     font-family: 'Inter', sans-serif; 
     background: rgb(12, 12, 12);
     color: white;
-    box-shadow: 0 -75px 100px -120px rgb(255, 174, 103) inset;
+    box-shadow: 0 -75px 100px -120px rgb(255, 150, 58) inset;
     animation: background 5s infinite;
 }
 
@@ -28,3 +28,9 @@ body {
     }
 }
 
+img {
+    filter: grayscale(1);
+    height: 32px; 
+    transition: 0.5s;
+    margin: 5px;
+}
