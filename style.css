@@ -8,9 +8,9 @@ html {
     animation: background 5s infinite;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+body { 
+    margin: 0; 
+    padding: 0; 
 }
 
 .center {
@@ -33,16 +33,23 @@ img {
     height: 32px; 
     transition: 0.5s;
     margin: 5px;
-    transform: rotate(-30deg);
 }
 
 img:hover { 
-    filter: grayscale(0); 
-    transform: rotate(0deg);
-
+    filter: grayscale(0);
+    height: 40px;
+    margin: 7px;
 }
 
-.ds {
+.donate {
+    filter: grayscale(1);
+    height: 32px;
+    margin: 15px;
+}
+
+.donate:hover { filter: grayscale(0); }
+
+.ds1 {
     cursor: pointer;
 }
 
