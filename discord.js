@@ -18,9 +18,9 @@ function telegram(){
 }
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    overlay.style.display='none'
-} else {
     overlay.style.display='block'
+} else {
+    overlay.style.display='none'
 }
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
