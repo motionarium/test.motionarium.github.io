@@ -36,6 +36,10 @@ body
     text-align: center;
 }
 
+.wrapper {
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+}
 img {
     filter: grayscale(1);
     height: 32px; 
@@ -68,7 +72,7 @@ a {
 }
 
 a.cw:hover { 
-    color: orange; 
+    color: #8f72ab; 
     text-shadow: 0 0 2px;
 }
 
