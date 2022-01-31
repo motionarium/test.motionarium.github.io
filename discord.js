@@ -17,15 +17,10 @@ function telegram(){
     }
 }
 
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    menu.style.display='block';
-} else {
-    menu.style.display='none';
-}
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
   }
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }

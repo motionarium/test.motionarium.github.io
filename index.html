@@ -15,13 +15,14 @@
   <div class="wrapper">
     <h1><span id="type"></span></h1>
     <p>
-      <a class="ds1" onclick="copydiscord(); return false"><img src="img/ds.svg"></a>
+      <a class="ds1" onclick="copydiscord()"><img src="img/ds.svg"></a>
       <a href="https://vk.com/oghackpepe"><img src="img/vk.svg"></a>
       <a class="ds1" onclick="telegram()"><img src="img/tg.svg"></a>
       <a href="https://youtube.com/channel/UCs8az7NZrJgYOXY_YdBtOpQ"><img src="img/yt.svg"></a>
       <a href="#"><img src="img/qiwi.svg"></a>
       <a href="mailto:me@motionarium.top"><img src="img/email.svg"></a>
-      <div id="myNav" class="overlay" style="display: none;">
+      <a onclick="openNav()"><img src="img/mobile.svg"></a>
+      <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a href="tryhow_js_overlay.php">Discord</a>
@@ -32,7 +33,6 @@
           <a href="tryhow_js_overlay.php">Email</a>
         </div>
       </div>
-      <span id="menu" style="font-size:30px; cursor:pointer; display: none" onclick="openNav();">&#9776; Menu</span>
   </p>
   <p id="ds" style="display: none; pointer-events: none;">ID Discord скопирован в буфер обмена!</p>
   <p id="tg" style="display: none;">public | dm</p>  
