@@ -72,7 +72,14 @@ a {
 }
 
 a.cw:hover { 
-    color: #8f72ab; 
+    color: #a3b0e4; 
     text-shadow: 0 0 2px;
+}
+
+.mobile {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 30px;
 }
 

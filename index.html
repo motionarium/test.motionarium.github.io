@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="discord.js"></script>
     <link rel="stylesheet" href="overlay.css">
-    <!-- <script src="tg.js"></script> !-->
 </head>
 <body>
   <div class="center">
@@ -22,22 +21,22 @@
       <a href="https://youtube.com/channel/UCs8az7NZrJgYOXY_YdBtOpQ"><img src="img/yt.svg"></a>
       <a href="#"><img src="img/qiwi.svg"></a>
       <a href="mailto:me@motionarium.top"><img src="img/email.svg"></a>
-      <a class="ds1" onclick="openNav()"><img src="img/mobile.svg"></a>
+      <a class="ds1 mobile cw" onclick="openNav()">☰</a>
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-          <a href="#">Discord</a>
+          <a class="ds1" onclick="copydiscord()">Discord</a>
           <a href="#">VK</a>
-          <a href="#">Telegram</a>
+          <a class="ds1" onclick="telegram()">Telegram</a>
           <a href="#">Youtube</a>
-          <a href="#">Donate</a>
+          <a href="#">Qiwi</a>
           <a href="#">Email</a>
         </div>
       </div>
   </p>
-  <p id="ds" style="display: none; pointer-events: none;">ID Discord скопирован в буфер обмена!</p>
-  <p id="tg" style="display: none;"><a class="cw" href="#">public</a> | <a class="cw" href="#">pm</a></a></p>  
-  </div>
+  <p id="tg" style="display: none; transition: 1s;"><a class="cw" href="#">public</a> | <a class="cw" href="#">pm</a></p>  
+  <p id="ds" style="display: none; pointer-events: none; transition: 1s;">ID Discord скопирован в буфер обмена!</p>
+</div>
   </div>
 </body>
 </html>
