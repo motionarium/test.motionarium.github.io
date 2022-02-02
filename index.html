@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="discord.js"></script>
-    <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="overlay.css" media="handheld">
+    <link rel="stylesheet" href="mobile.css" media="screen">
 </head>
 <body>
   <div class="center">
@@ -21,8 +22,8 @@
       <a href="https://youtube.com/channel/UCs8az7NZrJgYOXY_YdBtOpQ"><img src="img/yt.svg"></a>
       <a href="#"><img src="img/qiwi.svg"></a>
       <a href="mailto:me@motionarium.top"><img src="img/email.svg"></a>
-      <a class="ds1 mobile cw" onclick="openNav()">☰</a>
-      <div id="myNav" class="overlay">
+      <a class="ds1 mobile cw none" media="handheld" onclick="openNav()">☰</a>
+      <div id="myNav" class="overlay none">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a class="ds1" onclick="copydiscord()">Discord</a>
