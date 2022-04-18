@@ -40,6 +40,7 @@ body
     background: rgb(0, 0, 0, 0.5);
     width: 100%;
 }
+
 img {
     filter: grayscale(1);
     height: 32px; 
@@ -52,14 +53,6 @@ img:hover {
     height: 40px;
     margin: 7px;
 }
-
-.donate {
-    filter: grayscale(1);
-    height: 32px;
-    margin: 15px;
-}
-
-.donate:hover { filter: grayscale(0); }
 
 .ds1 {
     cursor: pointer;
@@ -74,12 +67,5 @@ a {
 a.cw:hover { 
     color: #a3b0e4; 
     text-shadow: 0 0 2px;
-}
-
-.mobile {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    font-size: 30px;
 }
 

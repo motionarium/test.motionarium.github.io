@@ -11,9 +11,9 @@ async function copydiscord() {
 
 function telegram(){
     if (tg.style.display == 'none') {
-       tg.style.display='block';
+        tg.style.display = 'block';
     } else {
-       tg.style.display='none';
+        tg.style.display = 'none';     
     }
 }
 
@@ -24,3 +24,12 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
+function device() {
+    if (device.mobile() == true) {
+        console.log('мабила')
+    }
+    else {
+        console.log('кампьютер!')
+    }
+}
