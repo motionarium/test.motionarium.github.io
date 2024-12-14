@@ -7,18 +7,17 @@
     <style>
         html {
             font-family: 'Arial';
+            color: white;
+            background-color: 'black';
         }
     </style>
 </head>
 <body>
-    <center><h1>Внимание</h1>
-
+    <center><h1>Скоро...</h1><br>
     <p>
-        Весь предыдущий контент был удалён из-за нарушения ГК РФ статьи 152 "Защита чести, достоинства и деловой репутации".<br> 
-        В скором времени опубликую контент, который не будет нарушать законы РФ.<br>
-        Впредь обещаю, что такого больше не повторится.<br>
-        <br>
-        С уважением, <b><a href='https://motionarium.top'>motionarium</a></b>.
+        Следите за событиями...<br>
+        <b><a href='https://motionarium.top'>motionarium</a></b>.
+    </p>
     </center>
 
     </p>
