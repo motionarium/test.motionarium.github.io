@@ -8,7 +8,7 @@
         html {
             font-family: 'Arial';
             color: white;
-            background-color: 'black';
+            background-color: black;
         }
     </style>
 </head>
